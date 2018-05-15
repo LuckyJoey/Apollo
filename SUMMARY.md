@@ -10,6 +10,7 @@
       * 不转义
     * [预定义的引用类型](c-notes/syntax/yu-ding-yi-de-yin-yong-lei-xing.md)
     * Namespace
-      * 名称空间的别名
+      * [名称空间的别名](c-notes/syntax/namespace/ming-cheng-kong-jian-de-bie-ming.md)
+    * [\#pragma](c-notes/syntax/pragma.md)
   * Arithmetic
 
