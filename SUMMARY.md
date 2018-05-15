@@ -12,5 +12,6 @@
     * Namespace
       * [名称空间的别名](c-notes/syntax/namespace/ming-cheng-kong-jian-de-bie-ming.md)
     * [\#pragma](c-notes/syntax/pragma.md)
+    * [类和结构](c-notes/syntax/lei-he-jie-gou.md)
   * Arithmetic
 
