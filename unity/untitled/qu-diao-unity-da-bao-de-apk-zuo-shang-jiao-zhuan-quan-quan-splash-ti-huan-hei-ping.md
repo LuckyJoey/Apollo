@@ -1,6 +1,9 @@
 # 去掉unity打包的apk左上角转圈圈（splash替换黑屏）
 
+勾选playersetting显示splash，然后用原生添加显示splash
+
 ```text
+
 
 public class UnityPlayerActivity extends Activity  {      protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code      // Setup activity layout      @Override protected void onCreate(Bundle savedInstanceState)      {          requestWindowFeature(Window.FEATURE_NO_TITLE);          super.onCreate(savedInstanceState);          getWindow().setFormat(PixelFormat.RGBX_8888); // <--- This makes xperia play happy          mUnityPlayer = new UnityPlayer(this);          setContentView(mUnityPlayer);          mUnityPlayer.requestFocus();          UnitySplashSDK.getInstance().onCreate(this,savedInstanceState);      }      public void HideSplash()      {          Log.d("UnityPlayer","Android_HideSplash");          UnitySplashSDK.getInstance().onHideSplash();      }  
 ```
