@@ -17,4 +17,6 @@
 * UNITY
   * Unity3d
   * Android
+    * [去掉unity打包的apk左上角转圈圈（splash替换黑屏）](unity/untitled/qu-diao-unity-da-bao-de-apk-zuo-shang-jiao-zhuan-quan-quan-splash-ti-huan-hei-ping.md)
+  * iOS
 
